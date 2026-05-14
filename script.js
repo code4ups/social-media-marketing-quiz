@@ -835,7 +835,7 @@ function exportToHTML() {
 
         <div class="footer">
             <p><strong>Διαδραστικό Τεστ Αυτοαξιολόγησης</strong></p>
-            <p>Προώθηση Εξαγωγών και Μάρκετινγκ Αγροδιατροφικών Προιόντων</p>
+            <p>Social Media Marketing</p>
             <p style="margin-top: 10px; font-size: 0.9em;">
                 Δημιουργήθηκε στις ${currentDate}
             </p>
