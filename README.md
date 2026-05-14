@@ -1,4 +1,4 @@
-# Agri-Food Marketing Quiz
+# Social Media Marketing Quiz
 
 An interactive self-assessment quiz application for agri-food product export promotion and marketing.
 
@@ -9,7 +9,7 @@ An interactive self-assessment quiz application for agri-food product export pro
 
 ## Features
 
-- **8 Quiz Sections** covering different export and marketing topics
+- **8 Quiz Sections** covering different social marketing topics
 - **Cancel Button** for navigation control
 - **Answer Memory** retains user responses during the session
 - **PDF Export** for results and certificates
@@ -42,7 +42,7 @@ No installation required. Simply clone the repository and open `index.html` in y
 
 ```bash
 git clone <repository-url>
-cd agri-food-marketing-quiz
+cd social-media-marketing-quiz
 # Open index.html in your browser
 ```
 
