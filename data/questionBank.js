@@ -2346,7 +2346,7 @@ const sectionInfo = {
         maxQuestions: 30
     },
     4: {
-        title: "📱 Ενότητα 4: Platforms (Instagram, TikTok, LinkedIn, YouTube)",
+        title: "📱 Ενότητα 4: Platforms (Facebook, Instagram, TikTok, LinkedIn, YouTube)",
         description: "Platforms (Instagram, TikTok, LinkedIn, YouTube)",
         maxQuestions: 50
     },
