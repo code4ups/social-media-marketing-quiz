@@ -4,9 +4,9 @@
     <tspan fill="#333333">PanJK</tspan><tspan fill="#1f5582" dx="8">TEST</tspan>
   </text>
 
-  <!-- Subtitle - Agrifood Green -->
+  <!-- Subtitle - Social Media Marketing Green -->
   <text x="200" y="95" text-anchor="middle" style="font-family: 'Poppins', Arial, sans-serif; font-size: 18px; font-weight: 400; fill: #388e3c; letter-spacing: 1px;">
-    Agrifood Marketing
+    Social Media Marketing
   </text>
 
   <!-- Optional subtle line separator -->
