@@ -509,112 +509,260 @@ const questionBank = {
         }
     ],
 
-    // Ενότητα 2: Διαδικασίες Μάρκετινγκ
+    // Ενότητα 2: Strategy Basics (στόχοι, funnel, KPI)
     section2: [
         {
             type: "true_false",
-            question: "Το Μάρκετινγκ δημιουργεί ανάγκες στους καταναλωτές;",
+            question: "Οι στόχοι μάρκετινγκ πρέπει να είναι ευθυγραμμισμένοι με τους επιχειρηματικούς στόχους.",
+            options: ["Σωστό", "Λάθος"],
+            correct: 0,
+            explanation: "Σωστό - Το μάρκετινγκ υπηρετεί τη συνολική στρατηγική της επιχείρησης."
+        },
+        {
+            type: "true_false",
+            question: "Ένας στόχος SMART πρέπει να είναι αόριστος για να υπάρχει ευελιξία.",
             options: ["Σωστό", "Λάθος"],
             correct: 1,
-            explanation: "Λάθος - Το μάρκετινγκ δεν δημιουργεί ανάγκες αλλά εντοπίζει και ικανοποιεί υπάρχουσες ανάγκες των καταναλωτών."
+            explanation: "Λάθος - SMART σημαίνει συγκεκριμένος, μετρήσιμος, εφικτός, σχετικός και χρονικά ορισμένος."
         },
         {
             type: "true_false",
-            question: "Η εκτίμηση των παραγόντων του περιβάλλοντος είναι σημαντικό στοιχείο του σχεδίου μάρκετινγκ και πρέπει να προηγείται του καθορισμού των στόχων μάρκετινγκ;",
+            question: "Το conversion rate είναι KPI που μετρά την αποτελεσματικότητα μετατροπών.",
             options: ["Σωστό", "Λάθος"],
             correct: 0,
-            explanation: "Σωστό - Η ανάλυση του περιβάλλοντος πρέπει να προηγείται για να καθοριστούν ρεαλιστικοί στόχοι μάρκετινγκ."
-        },
-        {
-            type: "multiple_choice",
-            question: "Βάλτε σε λογική σειρά τα στάδια της διαδικασίας που εξετάστηκε στην ενότητα αυτή.",
-            options: [
-                "Γ. Τμηματοποίηση, Β. Στόχευση, Α. Τοποθέτηση",
-                "Α. Τοποθέτηση, Γ. Τμηματοποίηση, Β. Στόχευση",
-                "Β. Στόχευση, Α. Τοποθέτηση, Γ. Τμηματοποίηση",
-                "Γ. Τμηματοποίηση, Α. Τοποθέτηση, Β. Στόχευση"
-            ],
-            correct: 0,
-            explanation: "Η σωστή σειρά είναι: 1) Τμηματοποίηση (διαίρεση της αγοράς), 2) Στόχευση (επιλογή τμημάτων), 3) Τοποθέτηση (positioning στα επιλεγμένα τμήματα)."
-        },
-        {
-            type: "multiple_choice",
-            question: "Αγορά στόχος ορίζεται ως:",
-            options: [
-                "Η ομάδα καταναλωτών με τη μεγαλύτερη οικονομική άνεση και αγοραστική ικανότητα.",
-                "Μια ομάδα καταναλωτών που δεν αγοράζουν, για διάφορούς λόγους, τα προϊόντα της επιχείρησης.",
-                "Μία ομάδα καταναλωτών ή πελατών με ομοιογενείς ανάγκες ή επιθυμίες τις οποίες η επιχείρηση αποφασίζει να ικανοποιήσει.",
-                "Η ομάδα καταναλωτών που αγοράζουν ανταγωνιστικά προϊόντα."
-            ],
-            correct: 2,
-            explanation: "Η αγορά στόχος είναι μια ομάδα καταναλωτών με κοινές ανάγκες που η επιχείρηση επιλέγει να εξυπηρετήσει."
-        },
-        {
-            type: "multiple_choice",
-            question: "Αναφορικά στην διανομή προϊόντων, ποιοι από τους παρακάτω μεσάζοντες πραγματοποιούν εμπορικές συναλλαγές για λογαριασμό τρίτων έναντι προμήθειας, συνήθως χωρίς να αγοράζουν στην κατοχή τους τα προϊόντα;",
-            options: [
-                "Οι Λιανέμποροι.",
-                "Οι Χονδρέμποροι.",
-                "Οι Αντιπρόσωποι.",
-                "Οι Βιομηχανικοί Διανομείς."
-            ],
-            correct: 2,
-            explanation: "Οι αντιπρόσωποι εργάζονται έναντι προμήθειας για λογαριασμό τρίτων χωρίς να αγοράζουν τα προϊόντα."
-        },
-        {
-            type: "multiple_choice",
-            question: "Προσδιορίστε ποια από τα παρακάτω αποτελούν ερεθίσματα που επηρεάζουν τη συμπεριφορά των καταναλωτών;",
-            options: [
-                "Η διαφήμιση ενός προϊόντος",
-                "Το οικονομικό περιβάλλον",
-                "Τα χαρακτηριστικά ενός προϊόντος",
-                "Όλα τα παραπάνω"
-            ],
-            correct: 3,
-            explanation: "Όλα τα παραπάνω (διαφήμιση, οικονομικό περιβάλλον, χαρακτηριστικά προϊόντος, κοινωνικό περιβάλλον) αποτελούν ερεθίσματα που επηρεάζουν την καταναλωτική συμπεριφορά."
-        },
-        {
-            type: "multiple_choice",
-            question: "Αναφορικά στη διαδικασία αγοραστικής απόφασης, βάλτε σε λογική σειρά τα παρακάτω:",
-            options: [
-                "Γ. Αναγνώριση ανάγκης, Α. Αναζήτηση και συλλογή πληροφοριών, Β. Αξιολόγηση εναλλακτικών λύσεων, Δ. Απόφαση Αγοράς, ΣΤ. Επαναγορά, Ε. Πίστη στο προϊόν",
-                "Α. Αναζήτηση και συλλογή πληροφοριών, Β. Αξιολόγηση εναλλακτικών λύσεων, Γ. Αναγνώριση ανάγκης, Δ. Απόφαση Αγοράς, Ε. Πίστη στο προϊόν, ΣΤ. Επαναγορά",
-                "Γ. Αναγνώριση ανάγκης, Β. Αξιολόγηση εναλλακτικών λύσεων, Α. Αναζήτηση και συλλογή πληροφοριών, Δ. Απόφαση Αγοράς, Ε. Πίστη στο προϊόν, ΣΤ. Επαναγορά",
-                "Γ. Αναγνώριση ανάγκης, Δ. Απόφαση Αγοράς, Α. Αναζήτηση και συλλογή πληροφοριών, Β. Αξιολόγηση εναλλακτικών λύσεων, ΣΤ. Επαναγορά, Ε. Πίστη στο προϊόν"
-            ],
-            correct: 0,
-            explanation: "Η σωστή σειρά είναι: 1) Αναγνώριση ανάγκης, 2) Αναζήτηση πληροφοριών, 3) Αξιολόγηση εναλλακτικών, 4) Απόφαση αγοράς, 5) Επαναγορά, 6) Πίστη στο προϊόν."
-        },
-        {
-            type: "multiple_choice",
-            question: "Συμπληρώστε τη φράση. Ο διαμορφωτής γνώμης (opinion leader)…",
-            options: [
-                "Είναι αυτός που αποφασίζει για την αγορά ενός προϊόντος",
-                "Είναι πολύ καλός γνώστης μιας κατηγορίας προϊόντων",
-                "Θα μπορούσε να είναι δημοσιογράφος, καλλιτέχνης, παρουσιαστής, αθλητής",
-                "Θα μπορούσε να είναι φίλος ή συνεργάτης του καταναλωτή που θα αγοράσει το προϊόν"
-            ],
-            correct: 2,
-            explanation: "Ο διαμορφωτής γνώμης μπορεί να είναι δημόσια προσωπικότητα όπως δημοσιογράφος, καλλιτέχνης, παρουσιαστής ή αθλητής."
+            explanation: "Σωστό - Δείχνει πόσοι χρήστες ολοκληρώνουν την επιθυμητή ενέργεια."
         },
         {
             type: "true_false",
-            question: "Οι πρώιμα υιοθετούντες είναι οι πρώτοι καταναλωτές που αγοράζουν ένα προϊόν, ακολουθούν τη μόδα και αγοράζουν νέα προϊόντα με σκοπό να επηρεάσουν και τους υπόλοιπους καταναλωτές;",
+            question: "Όλοι οι KPI είναι vanity metrics.",
+            options: ["Σωστό", "Λάθος"],
+            correct: 1,
+            explanation: "Λάθος - Οι KPI είναι ουσιαστικοί δείκτες απόδοσης, όχι απλώς επιφανειακές μετρήσεις."
+        },
+        {
+            type: "true_false",
+            question: "Στο funnel, το awareness βρίσκεται συνήθως στην κορυφή.",
             options: ["Σωστό", "Λάθος"],
             correct: 0,
-            explanation: "Σωστό - Οι πρώιμα υιοθετούντες (early adopters) είναι μεταξύ των πρώτων που δοκιμάζουν νέα προϊόντα και επηρεάζουν άλλους."
+            explanation: "Σωστό - Η αναγνωρισιμότητα είναι το πρώτο στάδιο επαφής."
+        },
+        {
+            type: "true_false",
+            question: "Το CAC είναι το κόστος διατήρησης υφιστάμενου πελάτη.",
+            options: ["Σωστό", "Λάθος"],
+            correct: 1,
+            explanation: "Λάθος - CAC είναι το κόστος απόκτησης νέου πελάτη."
+        },
+        {
+            type: "true_false",
+            question: "Η στρατηγική χωρίς σαφή KPI δυσκολεύει τη λήψη αποφάσεων.",
+            options: ["Σωστό", "Λάθος"],
+            correct: 0,
+            explanation: "Σωστό - Χωρίς μέτρηση δεν υπάρχει σαφής αξιολόγηση απόδοσης."
+        },
+        {
+            type: "true_false",
+            question: "Το ROAS συγκρίνει τα έσοδα από διαφήμιση με τη διαφημιστική δαπάνη.",
+            options: ["Σωστό", "Λάθος"],
+            correct: 0,
+            explanation: "Σωστό - ROAS = Revenue from Ads / Ad Spend."
+        },
+        {
+            type: "true_false",
+            question: "Το KPI 'reach' δείχνει ακριβώς πόσες πωλήσεις έγιναν.",
+            options: ["Σωστό", "Λάθος"],
+            correct: 1,
+            explanation: "Λάθος - Το reach αφορά μοναδικά άτομα που εκτέθηκαν, όχι πωλήσεις."
+        },
+        {
+            type: "true_false",
+            question: "Η σωστή ιεράρχηση στόχων βοηθά στην κατανομή budget.",
+            options: ["Σωστό", "Λάθος"],
+            correct: 0,
+            explanation: "Σωστό - Οι προτεραιότητες καθοδηγούν την επένδυση πόρων."
+        },
+
+        {
+            type: "multiple_choice",
+            question: "Ποιο από τα παρακάτω είναι SMART στόχος;",
+            options: [
+                "Να γίνουμε γνωστοί κάποια στιγμή",
+                "Να αυξήσουμε τα leads κατά 20% σε 3 μήνες",
+                "Να κάνουμε καλύτερο content",
+                "Να βελτιώσουμε λίγο την απόδοση"
+            ],
+            correct: 1,
+            explanation: "Είναι συγκεκριμένος, μετρήσιμος και χρονικά ορισμένος."
         },
         {
             type: "multiple_choice",
-            question: "Προσδιορίστε ποια από τα παρακάτω αφορούν κανόνες αναφορικά στο μήνυμα κάθε επικοινωνίας.",
+            question: "Ποιο KPI σχετίζεται περισσότερο με το στάδιο Consideration;",
+            options: ["CTR", "Brand recall από τηλεοπτική καμπάνια", "Warehouse capacity", "Employee turnover"],
+            correct: 0,
+            explanation: "Στο consideration, το CTR δείχνει ενδιαφέρον για περισσότερη πληροφορία."
+        },
+        {
+            type: "multiple_choice",
+            question: "Ποια είναι η σωστή σειρά ενός απλού funnel;",
             options: [
-                "Πρέπει να είναι ξεκάθαρο",
-                "Πρέπει να είναι απλό",
-                "Πρέπει να είναι σαφές",
-                "Όλα τα παραπάνω"
+                "Conversion → Awareness → Consideration",
+                "Awareness → Consideration → Conversion",
+                "Consideration → Awareness → Retention",
+                "Retention → Awareness → Conversion"
             ],
-            correct: 3,
-            explanation: "Το μήνυμα επικοινωνίας πρέπει να είναι ξεκάθαρο, απλό και σαφές για να είναι αποτελεσματικό."
+            correct: 1,
+            explanation: "Το κοινό πρώτα γνωρίζει, μετά εξετάζει, τέλος μετατρέπεται."
+        },
+        {
+            type: "multiple_choice",
+            question: "Ποιο metric είναι πιο κοντά στην αποδοτικότητα κόστους απόκτησης;",
+            options: ["CAC", "Reach", "Impressions", "Followers"],
+            correct: 0,
+            explanation: "Το CAC μετρά άμεσα κόστος ανά νέο πελάτη."
+        },
+        {
+            type: "multiple_choice",
+            question: "Ποιο είναι παράδειγμα KPI για στόχο αύξησης πωλήσεων;",
+            options: ["Revenue", "Likes μόνο", "Comments μόνο", "Page color consistency"],
+            correct: 0,
+            explanation: "Τα έσοδα συνδέονται άμεσα με εμπορικό στόχο."
+        },
+        {
+            type: "multiple_choice",
+            question: "Τι δείχνει κυρίως το conversion rate;",
+            options: [
+                "Κόστος ανά κλικ",
+                "Ποσοστό χρηστών που ολοκληρώνουν στόχο",
+                "Συνολικό αριθμό εμφανίσεων",
+                "Μόνο την ποιότητα δημιουργικού"
+            ],
+            correct: 1,
+            explanation: "Μετρά το ποσοστό μετατροπής σε επιθυμητή ενέργεια."
+        },
+        {
+            type: "multiple_choice",
+            question: "Ποιο KPI είναι πιο σχετικό με την αφοσίωση πελατών;",
+            options: ["Repeat purchase rate", "CPM", "Impressions", "Reach"],
+            correct: 0,
+            explanation: "Το repeat purchase δείχνει επιστροφή και πιστότητα."
+        },
+        {
+            type: "multiple_choice",
+            question: "Σε στόχο awareness, ποιο KPI είναι κατάλληλο;",
+            options: ["Reach", "Refund rate", "Cost of goods sold", "Churn of suppliers"],
+            correct: 0,
+            explanation: "Το reach μετρά πόσα μοναδικά άτομα είδαν το μήνυμα."
+        },
+        {
+            type: "multiple_choice",
+            question: "Πότε ένα metric θεωρείται vanity;",
+            options: [
+                "Όταν δεν συνδέεται με επιχειρηματικό αποτέλεσμα",
+                "Όταν είναι δύσκολο στη μέτρηση",
+                "Όταν είναι οικονομικός δείκτης",
+                "Όταν χρησιμοποιείται σε dashboard"
+            ],
+            correct: 0,
+            explanation: "Vanity metric είναι εντυπωσιακό αλλά όχι χρήσιμο για αποφάσεις."
+        },
+        {
+            type: "multiple_choice",
+            question: "Ποια ενέργεια βοηθά να γίνει ο στόχος πιο μετρήσιμος;",
+            options: [
+                "Χρήση ρήματος χωρίς αριθμό",
+                "Προσθήκη baseline και target value",
+                "Αποφυγή deadline",
+                "Περιγραφή χωρίς KPI"
+            ],
+            correct: 1,
+            explanation: "Baseline + target ορίζουν σαφές πλαίσιο μέτρησης."
+        },
+
+        {
+            type: "true_false",
+            question: "Το KPI πρέπει να έχει owner (υπεύθυνο παρακολούθησης).",
+            options: ["Σωστό", "Λάθος"],
+            correct: 0,
+            explanation: "Σωστό - Η ανάθεση ευθύνης βελτιώνει συνέπεια και λογοδοσία."
+        },
+        {
+            type: "true_false",
+            question: "Το ίδιο KPI είναι κατάλληλο για όλα τα στάδια funnel.",
+            options: ["Σωστό", "Λάθος"],
+            correct: 1,
+            explanation: "Λάθος - Κάθε στάδιο απαιτεί διαφορετικούς δείκτες."
+        },
+        {
+            type: "true_false",
+            question: "Το attribution βοηθά στην κατανόηση συμβολής καναλιών στο conversion.",
+            options: ["Σωστό", "Λάθος"],
+            correct: 0,
+            explanation: "Σωστό - Δείχνει πώς συμβάλλει κάθε touchpoint."
+        },
+        {
+            type: "true_false",
+            question: "Υψηλό CTR εγγυάται πάντα υψηλές πωλήσεις.",
+            options: ["Σωστό", "Λάθος"],
+            correct: 1,
+            explanation: "Λάθος - Χρειάζεται και καλή εμπειρία μετά το κλικ (landing, offer, price)."
+        },
+        {
+            type: "true_false",
+            question: "Η εβδομαδιαία αναφορά KPI βοηθά έγκαιρες διορθωτικές ενέργειες.",
+            options: ["Σωστό", "Λάθος"],
+            correct: 0,
+            explanation: "Σωστό - Η συχνή παρακολούθηση επιτρέπει ταχύτερη βελτιστοποίηση."
+        },
+
+        {
+            type: "multiple_choice",
+            question: "Ποιο από τα παρακάτω είναι καλύτερο North Star Metric για SaaS;",
+            options: [
+                "Συνολικά likes σε social",
+                "Active subscribers με χρήση προϊόντος",
+                "Αριθμός εσωτερικών meetings",
+                "Αριθμός σελίδων στο website"
+            ],
+            correct: 1,
+            explanation: "Το North Star πρέπει να αντικατοπτρίζει αξία προς πελάτη και ανάπτυξη."
+        },
+        {
+            type: "multiple_choice",
+            question: "Ποια σχέση δείχνει καλύτερα αποδοτικότητα καμπάνιας performance;",
+            options: ["ROAS", "Font size", "Image resolution", "Session duration μόνο"],
+            correct: 0,
+            explanation: "Το ROAS συγκρίνει έσοδα διαφήμισης με δαπάνη."
+        },
+        {
+            type: "multiple_choice",
+            question: "Για στόχο lead generation, ποιο KPI είναι πιο άμεσο;",
+            options: ["Cost per Lead (CPL)", "Store footfall", "Print circulation", "Share of voice μόνο"],
+            correct: 0,
+            explanation: "Το CPL μετρά κόστος ανά νέο lead."
+        },
+        {
+            type: "multiple_choice",
+            question: "Τι σημαίνει baseline σε KPI setting;",
+            options: [
+                "Ο τελικός στόχος μετά από 12 μήνες",
+                "Η τρέχουσα τιμή εκκίνησης πριν τη βελτίωση",
+                "Ο μέσος όρος του ανταγωνισμού",
+                "Η μέγιστη θεωρητική τιμή"
+            ],
+            correct: 1,
+            explanation: "Baseline είναι το σημείο αναφοράς για σύγκριση προόδου."
+        },
+        {
+            type: "multiple_choice",
+            question: "Ποια πρακτική βελτιώνει την ποιότητα στρατηγικής αναφοράς;",
+            options: [
+                "Αναφορά χωρίς συμπεράσματα",
+                "Σύνδεση KPI με δράσεις και επόμενα βήματα",
+                "Παρουσίαση μόνο vanity metrics",
+                "Αποφυγή σύγκρισης με στόχους"
+            ],
+            correct: 1,
+            explanation: "Τα KPI πρέπει να οδηγούν σε αποφάσεις και συγκεκριμένες ενέργειες."
         }
     ],
 
@@ -1863,46 +2011,46 @@ const sectionInfo = {
     1: {
         title: "📚 Ενότητα 1: Παραδοσιακό Μάρκετινγκ (Foundations)",
         description: "Παραδοσιακό Μάρκετινγκ (Foundations)",
-        maxQuestions: 50
+        maxQuestions: 60
     },
     2: {
         title: "🎯 Ενότητα 2: Strategy Basics (στόχοι, funnel, KPI)",
         description: "Strategy Basics (στόχοι, funnel, KPI)",
-        maxQuestions: 10
+        maxQuestions: 30
     },
     3: {
         title: "✍️ Ενότητα 3: Content Creation (formats, hooks, storytelling)",
         description: "Content Creation (formats, hooks, storytelling)",
-        maxQuestions: 20
+        maxQuestions: 30
     },
     4: {
         title: "📱 Ενότητα 4: Platforms (Instagram, TikTok, LinkedIn, YouTube)",
         description: "Platforms (Instagram, TikTok, LinkedIn, YouTube)",
-        maxQuestions: 25
+        maxQuestions: 30
     },
     5: {
         title: "📣 Ενότητα 5: Ads & Performance (CTR, CPC, ROAS, A/B testing)",
         description: "Ads & Performance (CTR, CPC, ROAS, A/B testing)",
-        maxQuestions: 10
+        maxQuestions: 30
     },
     6: {
         title: "📊 Ενότητα 6: Analytics & Measurement (engagement, retention, attribution)",
         description: "Analytics & Measurement (engagement, retention, attribution)",
-        maxQuestions: 15
+        maxQuestions: 30
     },
     7: {
         title: "👥 Ενότητα 7: Community & Growth (UGC, moderation, influencers)",
         description: "Community & Growth (UGC, moderation, influencers)",
-        maxQuestions: 15
+        maxQuestions: 30
     },
     8: {
         title: "🗂️ Ενότητα 8: Campaign Planning & Execution (brief, budget, optimization)",
         description: "Campaign Planning & Execution (brief, budget, optimization)",
-        maxQuestions: 20
+        maxQuestions: 30
     },
     9: {
         title: "🧩 Ενότητα 9: Όλες οι Κατηγορίες (Mixed Quiz)",
         description: "Όλες οι Κατηγορίες (Mixed Quiz)",
-        maxQuestions: 48
+        maxQuestions: 50
     }
 };

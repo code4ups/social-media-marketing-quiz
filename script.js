@@ -34,7 +34,7 @@ function updateQuestionCounts() {
     if (section9Card && sectionInfo[9]) {
         const questionCountElement = section9Card.querySelector('.question-count');
         if (questionCountElement) {
-            questionCountElement.textContent = '8-48 ερωτήσεις';
+            questionCountElement.textContent = '50 ερωτήσεις';
         }
     }
 }
